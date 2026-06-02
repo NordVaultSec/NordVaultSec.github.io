@@ -1,0 +1,41 @@
+# ============================================================
+# NORDVAULT SECURITY — Brand Consulting Site
+# nordvaultsec.github.io
+# ============================================================
+
+title: "NordVault Security"
+tagline: "Premium Cybersecurity Consulting — US · UK · Northern Europe"
+description: "NordVault Security delivers premium GRC advisory, data protection consulting, AI security assessment, and cybersecurity strategy for organisations across the US, UK, Germany, Netherlands, and Nordic regions."
+author: "NordVault Security"
+baseurl: ""
+url: "https://nordvaultsec.github.io"
+
+founder:
+  name: "Amritesh"
+  url: "https://amritesh-sec.github.io"
+
+lang: "en"
+timezone: "Europe/London"
+permalink: /:categories/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+markdown: kramdown
+highlighter: rouge
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - vendor/bundle
+  - vendor/cache
+  - vendor/gems
+  - vendor/ruby

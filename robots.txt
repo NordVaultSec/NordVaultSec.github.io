@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nordvaultsec.github.io/sitemap.xml
